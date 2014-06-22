@@ -1,0 +1,33 @@
+{
+  "name": "zoomdata",
+  "version": "1.4.0",
+  "authors": [
+    "William Lindner <wlindner522@gmail.com>"
+  ],
+  "description": "Zoomdata Javascript Client",
+  "main": "zoomdata.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "zoomdata",
+    "big",
+    "data",
+    "visualization"
+  ],
+  "license": "MIT",
+  "homepage": "http://zoomdata.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.1",
+    "jstz-detect": "~1.0.5",
+    "requirejs": "~2.1.14"
+  }
+}
