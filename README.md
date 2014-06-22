@@ -1,4 +1,0 @@
-ZoomdataJS
-==========
-
-Zoomdata Javascript Client
