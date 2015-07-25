@@ -1,3 +1,15 @@
 .DS_Store
 node_modules
 bower_components
+
+.idea/misc.xml
+
+.idea/.name
+
+.idea/modules.xml
+
+.idea/vcs.xml
+
+.idea/workspace.xml
+
+.idea/ZoomdataJS.iml

@@ -1,4 +1,16 @@
-Zoomdata.js
+ZoomdataJS
 ==========
+The Javascript Client Library for Zoomdata
+----------
 
-This repo hosts the Zoomdata Javascript SDK client library files. For examples on using the Zoomdata client Javascript library, refer to the [ZoomdataJS-Example](https://github.com/Zoomdata/ZoomdataJS-example) repo.
+This Github repository hosts the Zoomdata Javascript client library files (Javascript SDK). 
+
+For examples on using the ZoomdataJS client Javascript library, refer to the [ZoomdataJS-Example](https://github.com/Zoomdata/ZoomdataJS-example) repository.
+
+
+**Resources**
+----
+- You can download latest evaluation version of the Zoomdata application at [Zoomdata Downloads](http://www.zoomdata.com/download)
+- You can find documentation for the Javascript library at [Zoomdata Support](http://support.zoomdata.com)
+- API reference documentation can also be downloaded from Github [here](https://github.com/Zoomdata/ZoomdataJS-docs)
+
