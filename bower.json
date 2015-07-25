@@ -1,8 +1,8 @@
 {
   "name": "zoomdata",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "authors": [
-    "William Lindner <wlindner522@gmail.com>"
+    "William Lindner <william@zoomdata.com>"
   ],
   "description": "Zoomdata Javascript Client",
   "main": "zoomdata.min.js",

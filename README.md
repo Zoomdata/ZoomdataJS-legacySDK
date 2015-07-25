@@ -2,6 +2,7 @@ ZoomdataJS
 ==========
 The Javascript Client Library for Zoomdata
 ----------
+Version 1.6.0-Alpha.3
 
 This Github repository hosts the Zoomdata Javascript client library files (Javascript SDK). 
 
