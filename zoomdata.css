@@ -9,7 +9,6 @@
 }
 
 .zd-legend .color-key {
-    padding: 7px 12px;
     border-radius: 12px;
     background: #F6F6F6;
     -webkit-box-shadow: 2px 2px 1px 0px #A3A6A2;
@@ -24,11 +23,37 @@
     height: 17px;
     position: absolute;
     right: 5px;
-    top: 5px;
+    top: 2px;
     cursor: pointer;
     line-height: 17px;
     font-size: 17px;
     text-align: center;
+}
+
+.zd-legend.ui-draggable {
+
+    /* SETTING HEIGHT HERE VIA ColorKey.js */
+
+}
+
+.zd-legend.ui-draggable .color-key {
+    opacity: 0.9;
+    height: inherit;
+}
+
+.zd-legend.ui-draggable .color-key-metric-label {
+    cursor: move;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 4px;
+
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(255,255,255,1);
+    box-shadow: 0px 2px 1px 0px rgba(255,255,255,1);
+}
+
+.zd-legend.ui-draggable .color-key-content {
+    overflow-y: auto;
+    height: calc(100% - 30px);
 }
 
 .zd-legend .color-key.ui-draggable-dragging {
@@ -40,34 +65,64 @@
 }
 
 .zd-legend .color-key-metric-label {
-    color: #939292;
-    font-size: 13px;
+    color: #595959;
+    font-size: 12px;
     text-align: center;
+}
+
+.zd-legend .color-key-metric-label {
+    padding: 0px 20px;
+    line-height: 24px;
+}
+
+.zd-legend .color-key-linear-view,
+.zd-legend .color-key-list-view {
     padding: 0px 10px;
+    margin: 0px;
 }
 
 .zd-legend .color-key-linear-view {
-    margin-top: 5px;
+    
 }
 
 .zd-legend ul.color-key-list-view {
     max-height: 247px;
     margin: 0;
-    padding: 0 20px 0 0;
     list-style: none;
     width: inherit;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .zd-legend .color-list-item {
-    height: 21px;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 15px;
     white-space: nowrap;
 }
 
+.fullScreenContainer .zd-legend .color-key-metric-label,
+.color-palette-content .zd-legend .color-key-metric-label,
+.zoomable-content .ready.single .zd-legend .color-key-metric-label {
+    font-size: 14px;
+}
+
+.fullScreenContainer .zd-legend .color-list-item,
+.color-palette-content .zd-legend .color-list-item,
+.zoomable-content .ready.single .zd-legend .color-list-item {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.fullScreenContainer .zd-legend .color-key-list-view .color-item,
+.color-palette-content .zd-legend .color-key-list-view .color-item,
+.zoomable-content .ready.single .zd-legend .color-key-list-view .color-item {
+    width: 14px;
+    height: 14px;
+}
+
 .zd-legend .color-key-list-view .color-item {
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
     margin-top: 0;
     margin-right: 6px;
     border: none;
