@@ -2,7 +2,7 @@ ZoomdataJS
 ==========
 The Javascript Client Library for Zoomdata
 ----------
-For use with Zoomdata version 2.0.2
+For use with Zoomdata version 2.0.2 and earlier. Starting with Zoomdata version 2.0.3, find the Javascript Client Library in your Zoomdata installation at `/webapps/zoomdata/sdk/1.0/zoomdata-client.js`.
 
 This Github repository hosts the Zoomdata Javascript client library files (Javascript SDK). 
 
